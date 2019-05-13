@@ -1,0 +1,16 @@
+127.0.0.1 - - [06/Apr/2019:09:33:28 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:33:32 +0530] "GET /bank-app-web/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:33:33 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:33:38 +0530] "GET /bank-app-web/Display%20Details.jsp HTTP/1.1" 200 2884
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:33:45 +0530] "GET /bank-app-web/New%20Account.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:34:06 +0530] "POST /bank-app-web/addNewBankAccount.do HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:34:12 +0530] "GET /bank-app-web/Withdraw.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:34:14 +0530] "GET /bank-app-web/Deposit%20Amount.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:34:18 +0530] "GET /bank-app-web/Upadte%20Details.html HTTP/1.1" 404 1112
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:34:24 +0530] "GET /bank-app-web/Update%20Details.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:34:29 +0530] "GET /bank-app-web/Search%20Account.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:34:36 +0530] "POST /bank-app-web/Search%20Account.do HTTP/1.1" 200 26
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:34:45 +0530] "POST /bank-app-web/Search%20Account.do HTTP/1.1" 200 26
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:35:26 +0530] "POST /bank-app-web/Search%20Account.do HTTP/1.1" 404 1107
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:35:29 +0530] "GET /bank-app-web/Search%20Account.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Apr/2019:09:35:38 +0530] "POST /bank-app-web/Search%20Account.do HTTP/1.1" 404 1107
