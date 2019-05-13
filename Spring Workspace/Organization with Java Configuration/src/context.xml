@@ -1,0 +1,61 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+    	http://www.springframework.org/schema/context/spring-context.xsd">
+	<context:property-placeholder location="classpath:dbConfig.properties" />
+
+<bean id="orgnization" class="com.capgemini.spring.main.Organization">
+	<property name="orgId" value= "101"></property>
+	<property name="orgName" value= "SourceKode" ></property>
+	<property name="marketPrice" value="1000000"></property>
+	
+
+	<!--<property name="address" ref="address"></property>
+
+	<property name="directors">
+	<list>
+		<value>Paul Hermelin</value>
+            	<value>Daniel Bernard</value>
+	</list>
+	</property>
+
+	<property name = "branches">
+         <set>
+            <value>India</value>
+            <value>USA</value>
+         </set>
+      	</property>
+
+	<property name = "branchWiseHead">
+         <map>
+            <entry key = "INDIA" value = "Paul"/>
+            <entry key = "USA" value = "Daniel"/>
+         </map>
+      	</property>
+
+	<property name="databaseDetails">
+	<props>
+		<prop key ="dbUser">${user}</prop>
+		<prop key="dbPassword">${password}</prop>
+	</props>
+	</property>
+
+	<property name ="ipAddresses">
+         	<props>
+            		<prop key ="admin">192.168.1.1</prop>
+            		<prop key ="hr">121.168.1.2</prop>
+         	</props>
+      	</property>
+	</bean>
+
+	<bean id = "address" class="com.capgemini.spring.main.Address">
+		<property name="city" value= "Mahad" ></property>
+		<property name="state" value= "Maharashtra"></property>
+		<property name="zipCode" value= "402301"></property>
+	</bean>
+-->
+
+</beans>

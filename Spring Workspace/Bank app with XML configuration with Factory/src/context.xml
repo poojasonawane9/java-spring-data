@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xmlns:util="http://www.springframework.org/schema/util"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd 
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/util
+ 	http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<Util:properties id="myProperties" location="dbConfig.properties">
+
+   
+ 
+	<bean name="bankDaoImpl" class="com.capgemini.bankapp.dao.impl.BankAccountDaoImpl">
+        <property name="dataSource" ref="dataSource"></property>
+    	</bean>
+ 
+    	<bean id="bankService" class="com.capgemini.bankapp.service.impl.BankAccountServiceImpl">
+        <constructor-arg ref="bankDaoImpl"/>
+    	</bean>
+    
+
+	</beans>
